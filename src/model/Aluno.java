@@ -17,9 +17,10 @@ public class Aluno {
     private String nomeResponsavel;
     private String situacaoEmpregaticia;
     private String ocorrencias;
-    private String frquencia;
+    private int frquencia;
+    private double mediaBimestral;
 
-    public Aluno(String nome, String matricula, String nomeCompleto, String nivelEscolar, String turno, String nomeResponsavel, String situacaoEmpregaticia, String ocorrencias, String frquencia) {
+    public Aluno(String nome, String matricula, String nomeCompleto, String nivelEscolar, String turno, String nomeResponsavel, String situacaoEmpregaticia, String ocorrencias, int frquencia, double mediaBimestral) {
         this.nome = nome;
         this.matricula = matricula;
         this.nomeCompleto = nomeCompleto;

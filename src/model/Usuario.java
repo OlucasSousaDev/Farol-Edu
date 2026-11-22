@@ -9,8 +9,8 @@ package model;
  * @author luc4s
  */
 public class Usuario {
-   String user;
-   String password;
+   private String user;
+   private String password;
 
     public Usuario(String user, String password) {
         this.user = user;
