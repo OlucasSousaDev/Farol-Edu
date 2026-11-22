@@ -66,7 +66,7 @@ public class Aluno {
         return ocorrencias;
     }
 
-    public String getFrquencia() {
+    public int getFrquencia() {
         return frquencia;
     }
     
@@ -104,7 +104,7 @@ public class Aluno {
         this.ocorrencias = ocorrencias;
     }
 
-    public void setFrquencia(String frquencia) {
+    public void setFrquencia(int frquencia) {
         this.frquencia = frquencia;
     }
     
