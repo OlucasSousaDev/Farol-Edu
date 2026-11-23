@@ -4,10 +4,18 @@
  */
 package service;
 
+import model.Aluno;
+
 /**
  *
  * @author luc4s
  */
 public class ClassificacaoService {
-    
+//    private Aluno aluno;
+//    ClassificacaoService(Aluno aluno){
+//        this.aluno=aluno;
+//    }
+//    
+//    private double media=(aluno.getMediaBimestral(0
+//            );
 }

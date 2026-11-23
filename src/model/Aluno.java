@@ -30,6 +30,7 @@ public class Aluno {
         this.situacaoEmpregaticia = situacaoEmpregaticia;
         this.ocorrencias = ocorrencias;
         this.frquencia = frquencia;
+        this.mediaBimestral=mediaBimestral;
     }
     
     //get
@@ -69,6 +70,9 @@ public class Aluno {
     public int getFrquencia() {
         return frquencia;
     }
+    public double getMediaBimestral(double mediaBimestral){
+        return mediaBimestral;
+    }
     
     //set
 
@@ -106,6 +110,9 @@ public class Aluno {
 
     public void setFrquencia(int frquencia) {
         this.frquencia = frquencia;
+    }
+    public void setMediaBimestral(double mediaBimestral){
+        this.mediaBimestral=mediaBimestral;
     }
     
     
