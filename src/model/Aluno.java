@@ -70,7 +70,7 @@ public class Aluno {
     public int getFrquencia() {
         return frquencia;
     }
-    public double getMediaBimestral(double mediaBimestral){
+    public double getMediaBimestral(){
         return mediaBimestral;
     }
     

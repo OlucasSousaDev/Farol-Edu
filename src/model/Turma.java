@@ -15,16 +15,18 @@ public class Turma {
     private String nivelEscolar;
     private String turno;
     private String profesorResponsavel;
+    private int quantidadesAulasBimestral;
 
     //construtor
     
-    public Turma(String nome, String anoLetivo, String bimestre, String nivelEscolar, String turno, String profesorResponsavel) {
+    public Turma(String nome, String anoLetivo, String bimestre, String nivelEscolar, String turno, String profesorResponsavel, int quantidadesAulasBimestral) {
         this.nome = nome;
         this.anoLetivo = anoLetivo;
         this.bimestre = bimestre;
         this.nivelEscolar = nivelEscolar;
         this.turno = turno;
         this.profesorResponsavel = profesorResponsavel;
+        this.quantidadesAulasBimestral=quantidadesAulasBimestral;
     }
     
     //get
@@ -52,6 +54,9 @@ public class Turma {
     public String getProfesorResponsavel() {
         return profesorResponsavel;
     }
+    public int getQuantidadesAulasBimestral(){
+        return quantidadesAulasBimestral;
+    }
 
     //set
 
@@ -77,6 +82,9 @@ public class Turma {
 
     public void setProfesorResponsavel(String profesorResponsavel) {
         this.profesorResponsavel = profesorResponsavel;
+    }
+    public void setQuantidadesAulasBimestral(int quantidadesAulasBimestral){
+    this.quantidadesAulasBimestral=quantidadesAulasBimestral;
     }
     
     
