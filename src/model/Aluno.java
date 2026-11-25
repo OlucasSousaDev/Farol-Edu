@@ -16,11 +16,11 @@ public class Aluno {
     private String turno;
     private String nomeResponsavel;
     private String situacaoEmpregaticia;
-    private String ocorrencias;
+    private int ocorrencias;
     private int frquencia;
     private double mediaBimestral;
 
-    public Aluno(String nome, String matricula, String nomeCompleto, String nivelEscolar, String turno, String nomeResponsavel, String situacaoEmpregaticia, String ocorrencias, int frquencia, double mediaBimestral) {
+    public Aluno(String nome, String matricula, String nomeCompleto, String nivelEscolar, String turno, String nomeResponsavel, String situacaoEmpregaticia, int ocorrencias, int frquencia, double mediaBimestral) {
         this.nome = nome;
         this.matricula = matricula;
         this.nomeCompleto = nomeCompleto;
@@ -63,7 +63,7 @@ public class Aluno {
         return situacaoEmpregaticia;
     }
 
-    public String getOcorrencias() {
+    public int getOcorrencias() {
         return ocorrencias;
     }
 
@@ -104,7 +104,7 @@ public class Aluno {
         this.situacaoEmpregaticia = situacaoEmpregaticia;
     }
 
-    public void setOcorrencias(String ocorrencias) {
+    public void setOcorrencias(int ocorrencias) {
         this.ocorrencias = ocorrencias;
     }
 
