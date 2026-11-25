@@ -27,28 +27,28 @@ public class CardTurma extends javax.swing.JPanel {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
+        tituloTurma = new javax.swing.JLabel();
+        anoTurma = new javax.swing.JLabel();
+        btnEditarDados = new javax.swing.JButton();
+        btnAnalisarTurma = new javax.swing.JButton();
 
         jPanel1.setBackground(new java.awt.Color(199, 194, 206));
 
-        jLabel1.setBackground(new java.awt.Color(91, 63, 140));
-        jLabel1.setFont(new java.awt.Font("Montserrat", 1, 14)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(91, 63, 140));
-        jLabel1.setText("NomeTurma");
+        tituloTurma.setBackground(new java.awt.Color(91, 63, 140));
+        tituloTurma.setFont(new java.awt.Font("Montserrat", 1, 14)); // NOI18N
+        tituloTurma.setForeground(new java.awt.Color(91, 63, 140));
+        tituloTurma.setText("NomeTurma");
 
-        jLabel2.setBackground(new java.awt.Color(91, 63, 140));
-        jLabel2.setFont(new java.awt.Font("Montserrat", 1, 14)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(91, 63, 140));
-        jLabel2.setText("2026");
+        anoTurma.setBackground(new java.awt.Color(91, 63, 140));
+        anoTurma.setFont(new java.awt.Font("Montserrat", 1, 14)); // NOI18N
+        anoTurma.setForeground(new java.awt.Color(91, 63, 140));
+        anoTurma.setText("2026");
 
-        jButton1.setBackground(new java.awt.Color(46, 35, 70));
-        jButton1.setText("editar dados");
+        btnEditarDados.setBackground(new java.awt.Color(46, 35, 70));
+        btnEditarDados.setText("editar dados");
 
-        jButton2.setBackground(new java.awt.Color(46, 35, 70));
-        jButton2.setText("analisar turma");
+        btnAnalisarTurma.setBackground(new java.awt.Color(46, 35, 70));
+        btnAnalisarTurma.setText("analisar turma");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -58,28 +58,28 @@ public class CardTurma extends javax.swing.JPanel {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(62, 62, 62)
-                        .addComponent(jLabel2))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(37, 37, 37)
-                        .addComponent(jLabel1))
+                        .addComponent(anoTurma))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(29, 29, 29)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton2))))
+                            .addComponent(btnEditarDados, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btnAnalisarTurma)))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(42, 42, 42)
+                        .addComponent(tituloTurma)))
                 .addContainerGap(36, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel1)
+                .addComponent(tituloTurma)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel2)
+                .addComponent(anoTurma)
                 .addGap(18, 18, 18)
-                .addComponent(jButton1)
+                .addComponent(btnEditarDados)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jButton2)
+                .addComponent(btnAnalisarTurma)
                 .addContainerGap(36, Short.MAX_VALUE))
         );
 
@@ -97,10 +97,10 @@ public class CardTurma extends javax.swing.JPanel {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel anoTurma;
+    private javax.swing.JButton btnAnalisarTurma;
+    private javax.swing.JButton btnEditarDados;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JLabel tituloTurma;
     // End of variables declaration//GEN-END:variables
 }
